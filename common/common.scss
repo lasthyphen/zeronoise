@@ -17,9 +17,6 @@ p {
   #site-logo {
     max-height: 2em;
     max-width: 100%;
-    filter: invert(get_invert($logo-invert-colors))
-      hue-rotate(#{$logo-hue-rotation}deg)
-      brightness(calc((#{$logo-brightness} / 10) + 1));
   }
 }
 
