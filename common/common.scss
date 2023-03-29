@@ -41,6 +41,7 @@ $font-stack: "Inter", sans-serif;
 from our static marketing site https://ww.alw.figma.com/ */
 html {
   font-family: $font-stack;
+  -webkit-font-smoothing: antialiased !important;
   
   font-size: 0.9em;
   /* These control the user settings for text size */
@@ -61,6 +62,7 @@ h3,
 h4,
 h5 {
   font-family: $font-stack;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 img.emoji {
