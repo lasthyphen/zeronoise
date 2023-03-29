@@ -18,6 +18,10 @@
     padding-left: 1rem;
 }
 
+.discourse-no-touch .btn-mini-toggle:hover, .discourse-no-touch .btn-mini-toggle.btn-hover {
+    background: rgb(165 152 255);
+}
+
 .badge-wrapper .badge-category .category-name {
     text-overflow: ellipsis;
     overflow: hidden;
