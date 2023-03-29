@@ -76,6 +76,18 @@
     padding: 15px 5px;
 }
 
+#topic-title {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+#topic-title h1 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
 #reply-control .reply-to .composer-controls .d-icon {
     color: #ffffff;
 }
