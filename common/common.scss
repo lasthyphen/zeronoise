@@ -6,6 +6,12 @@
 
 // General
 
+li {
+    font-size: .85em;
+    -webkit-font-smoothing: antialiased !important;
+    line-height: 1.9;
+}
+
 .d-icon.d-icon-d-watching {
     color: var(--red) !important
 }
@@ -149,6 +155,7 @@ p {
   }
   &.posts {
     margin-bottom: 2rem;
+    justify-content: space-around;
   }
   .user-content {
     border-radius: 0.5rem;
