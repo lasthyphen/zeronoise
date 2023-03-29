@@ -208,11 +208,20 @@
     margin-bottom: 1.25rem;
 }
 
+.select-kit.single-select.dropdown-select-box .select-kit-row .texts {
+    line-height: 1.6em;
+    flex: 1 1 0%;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 #topic-title h1 {
     font-family: var(--heading-font-family);
     font-weight: bold;
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 #reply-control .reply-to .composer-controls .d-icon {
