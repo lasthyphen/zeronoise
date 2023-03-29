@@ -10,6 +10,15 @@
     padding: 14px 20px !important;
 }
 
+.topic-body .cooked {
+    line-height: 1.9em;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.8589em;
+    font-weight: 400;
+    color: #484361;
+    padding: 1em var(--topic-body-width-padding) .25em var(--topic-body-width-padding);
+}
+
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
     color: #131313;
 }
@@ -76,7 +85,6 @@
 }
 
 li {
-    font-size: .85em;
     -webkit-font-smoothing: antialiased !important;
     line-height: 1.9;
 }
@@ -141,8 +149,7 @@ img.emoji {
 }
 
 p {
-  line-height: 1.6;
-  font-size: 0.85em;
+  line-height: 1.9;
   -webkit-font-smoothing: antialiased !important;
 }
 
