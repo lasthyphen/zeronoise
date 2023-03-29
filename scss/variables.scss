@@ -1,14 +1,3 @@
-@font-face {
-  font-family: "MetaSerifPro-Bold";
-  src: url($metaserifpro-bold);
-}
-
-@font-face {
-  font-family: "MetaSerifPro-Bold";
-  src: url($metaserifpro-bold);
-  font-weight: 400;
-}
-
 @mixin badge($color) {
   color: $color;
   background: linear-gradient(149deg, $color, lighten($color, 40), $color);
@@ -125,4 +114,4 @@
   --heading-font-family: "MetaSerifPro-Bold", serif;
 }
 
-$font-size-large: 3rem;
+$font-size-large: 1.8rem;
