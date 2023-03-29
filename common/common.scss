@@ -28,6 +28,14 @@
     padding: 1em var(--topic-body-width-padding) .25em var(--topic-body-width-padding);
 }
 
+#topic-title h1 .edit-topic {
+    font-size: 0.65em;
+}
+
+#topic-title h1 a {
+    font-size: 1.8em;
+}
+
 .composer-popup {
     background: #f5f0ff;
 }
