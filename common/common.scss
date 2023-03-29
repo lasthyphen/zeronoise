@@ -44,6 +44,14 @@
     top: 12px;
 }
 
+.login-modal:not(.hidden) #login-form .input-group input, .login-modal:not(.hidden) #login-form .input-group .select-kit-header, .login-modal:not(.hidden) .login-form .input-group input, .login-modal:not(.hidden) .login-form .input-group .select-kit-header, .login-modal:not(.hidden) .invite-form .input-group input, .login-modal:not(.hidden) .invite-form .input-group .select-kit-header, .create-account #login-form .input-group input, .create-account #login-form .input-group .select-kit-header, .create-account .login-form .input-group input, .create-account .login-form .input-group .select-kit-header, .create-account .invite-form .input-group input, .create-account .invite-form .input-group .select-kit-header, .invites-show #login-form .input-group input, .invites-show #login-form .input-group .select-kit-header, .invites-show .login-form .input-group input, .invites-show .login-form .input-group .select-kit-header, .invites-show .invite-form .input-group input, .invites-show .invite-form .input-group .select-kit-header {
+    padding: .75em .77em;
+    min-width: 326px;
+    box-shadow: none;
+    margin-bottom: .25em;
+    width: 100%;
+}
+
 .sidebar-section-wrapper .sidebar-section-header-wrapper:focus-within {
     background: #e8e7ee00;
 }
