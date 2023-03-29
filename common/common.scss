@@ -36,6 +36,23 @@
     color: #131313;
 }
 
+.header-sidebar-toggle button.widget-button {
+    border-radius: .5rem;
+    transition: border-radius .2s;
+    position: absolute;
+    right: 206px;
+    top: 12px;
+}
+
+.sidebar-section-wrapper .sidebar-section-header-wrapper:focus-within {
+    background: #e8e7ee00;
+}
+
+.sidebar-wrapper .sidebar-section-header-text {
+    font-size: .85rem;
+    letter-spacing: .02em;
+}
+
 .topic-list-item .main-link:first-of-type {
     padding-left: 1rem;
 }
