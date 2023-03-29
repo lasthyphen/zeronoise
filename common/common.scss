@@ -46,6 +46,36 @@
     margin-left: 4px;
 }
 
+.new-user-wrapper .user-navigation .nav-pills li a:hover, .new-user-wrapper .user-navigation .nav-pills li a:focus {
+    background: rgb(100 99 121 / 0%);
+    color: #000000;
+    font-weight: bold;
+    border-bottom: var(--user-navigation__border-width) solid var(--quaternary-low);
+}
+
+.btn[disabled]:not(.is-loading), .btn.disabled:not(.is-loading) {
+    opacity: 0.6;
+    color: #ffffff99 !important;
+}
+
+.chat-drawer-header .btn {
+    height: 100%;
+    background-color: transparent;
+    color: black;
+}
+
+.user-menu.revamped .tabs-list .btn .d-icon {
+    color: #424242;
+}
+
+.user-menu.revamped .tabs-list .btn:hover {
+    border-radius: 2px;
+}
+
+.user-menu.revamped .tabs-list .btn {
+    background: transparent;
+}
+
 .badge-wrapper.bullet {
     margin-right: 12px;
 }
