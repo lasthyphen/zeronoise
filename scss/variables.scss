@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Playfair Display";
-  src: url($playfair-display-regular);
+  font-family: "MetaSerifPro-Bold";
+  src: url($metaserifpro-bold);
 }
 
 @font-face {
-  font-family: "Playfair Display";
-  src: url($playfair-display-semibold);
-  font-weight: bold;
+  font-family: "MetaSerifPro-Bold";
+  src: url($metaserifpro-bold);
+  font-weight: 400;
 }
 
 @mixin badge($color) {
@@ -122,7 +122,7 @@
   // --silver: silver;
   --main-background: var(--quaternary);
   --light-accent: var(--quaternary);
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "MetaSerifPro-Bold", serif;
 }
 
 $font-size-large: 3rem;
