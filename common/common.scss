@@ -34,6 +34,14 @@
     left: 10px;
 }
 
+.open .grippie:before {
+    content: "";
+    display: block;
+    width: 24px;
+    margin: auto;
+    border-top: 4px double #ffffff;
+}
+
 .topic-list a.title {
     font-weight: 600 !important;
     font-size: 1rem;
