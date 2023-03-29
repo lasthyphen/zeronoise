@@ -18,6 +18,12 @@
     padding-left: 1rem;
 }
 
+.badge-wrapper .badge-category .category-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 4px;
+}
+
 .topic-list-item .posters a:first-child {
     position: relative;
     left: 10px;
