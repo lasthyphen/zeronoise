@@ -40,6 +40,13 @@
     background: rgb(165 152 255);
 }
 
+.user-menu.revamped #quick-access-profile .profile-tab-btn {
+    justify-content: unset;
+    line-height: var(--line-height-large);
+    width: 100%;
+    background: transparent;
+}
+
 .badge-wrapper .badge-category .category-name {
     text-overflow: ellipsis;
     overflow: hidden;
