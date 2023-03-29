@@ -2,11 +2,9 @@
 @import "topic";
 @import "topic-list";
 @import "sidebar";
+@import "buttons";
 
 // General
-.btn {
-  border-radius: 2rem;
-}
 
 .d-icon.d-icon-d-watching {
     color: var(--red) !important
