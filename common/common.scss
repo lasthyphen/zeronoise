@@ -38,6 +38,11 @@
     padding: 1em var(--topic-body-width-padding) .25em var(--topic-body-width-padding);
 }
 
+.topic-list .topic-excerpt {
+    font-size: 0.82em;
+    line-height: 1.8;
+}
+
 #topic-title h1 .edit-topic {
     font-size: 0.65em;
 }
