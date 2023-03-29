@@ -173,6 +173,10 @@ p {
   }
 }
 
+.container.posts .topic-navigation {
+    margin-left: 3em;
+}
+
 // List and Post
 .container {
   &.list-container,
@@ -181,7 +185,6 @@ p {
   }
   &.posts {
     margin-bottom: 2rem;
-    justify-content: space-around;
   }
   .user-content {
     border-radius: 0.5rem;
