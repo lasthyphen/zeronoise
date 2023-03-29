@@ -17,7 +17,7 @@ Buttons
   text-transform: capitalize;
   transition: none;
   &[href] {
-    color: var(--fg-high-contrast);
+    color: #fafafa;
   }
   &.no-text {
     .d-icon {
