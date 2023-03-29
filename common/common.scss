@@ -18,6 +18,23 @@
     width: 32px;
 }
 
+.quote-button .buttons {
+    gap: 6px;
+}
+
+.quote-button .btn-flat .d-icon, .quote-button .json-editor-btn-collapse .d-icon {
+    color: #ffffff;
+}
+
+.quote-button {
+    position: absolute;
+    z-index: 300;
+    background-color: #f4f4f900;
+    border: 1px solid #e8e7ee00;
+    box-shadow: 0 4px 14px rgba(0,0,0,.15);
+    flex-direction: column;
+}
+
 .channels-list .chat-channel-divider {
     color: #000000;
 }
