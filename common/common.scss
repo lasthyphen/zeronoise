@@ -36,6 +36,15 @@
     color: #131313;
 }
 
+.modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 14px 36px 10px;
+    border-top: 1px solid var(--primary-low);
+    --btn-bottom-margin: 0.3em;
+}
+
 .header-sidebar-toggle button.widget-button {
     border-radius: .5rem;
     transition: border-radius .2s;
