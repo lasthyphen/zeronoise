@@ -53,6 +53,17 @@
     top: 12px;
 }
 
+.topic-map h4 {
+    margin: 1px 0 2px 0;
+    color: var(--primary-med-or-secondary-med);
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: var(--line-height-small);
+}
+
+.topic-map .map .number, .topic-map .map .d-icon {
+    font-weight: bold;
+}
 
 .modal-footer {
     align-items: center;
