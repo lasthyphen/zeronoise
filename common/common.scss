@@ -14,8 +14,10 @@ p {
 
 // Header
 .d-header {
+   background-color: #fff !important;
+   box-shadow: 0 2px 4px -1px rgba(0,0,0,.10) !important;
   #site-logo {
-    max-height: 2em;
+    max-height: 2.2em;
     max-width: 100%;
   }
 }
